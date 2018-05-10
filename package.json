@@ -1,0 +1,32 @@
+{
+  "name": "calendar_service",
+  "version": "1.0.0",
+  "description": "A service that populates google-calendar with events docs provided",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rody-Kirwan/joescrapes_BE.git"
+  },
+  "author": "Rody Kirwan <rody.kirwan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rody-Kirwan/joescrapes_BE/issues"
+  },
+  "homepage": "https://github.com/Rody-Kirwan/joescrapes_BE#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "googleapis": "^29.0.0",
+    "mkdirp": "^0.5.1",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "python-shell": "^0.5.0",
+    "querystring": "^0.2.0",
+    "request": "^2.85.0"
+  }
+}
